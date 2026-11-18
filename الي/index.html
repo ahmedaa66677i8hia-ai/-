@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="الموقع الشخصي لأحمد عاطف عطاالله، طالب هندسة أنظمة الحاسوب ومهتم بتطوير الويب.">
+  <meta name="theme-color" content="#071a33">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:title" content="أحمد عاطف عطاالله | هندسة أنظمة الحاسوب وتطوير الويب">
+  <meta property="og:description" content="طالب هندسة أنظمة الحاسوب في جامعة الأزهر بغزة ومطوّر ويب Front-End وBack-End.">
+  <title>أحمد عاطف عطاالله | Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="JavaScript.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">تجاوز إلى المحتوى الرئيسي</a>
+  <header class="header">
+    <div class="container navbar">
+      <a class="logo" href="#home" aria-label="أحمد عاطف عطاالله - الرئيسية">
+        <span class="logo-icon" aria-hidden="true">&lt;/&gt;</span>
+        <span>أحمد عاطف عطاالله<small>هندسة أنظمة الحاسوب وتطوير الويب</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="فتح قائمة التنقل" aria-controls="primary-navigation" aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+      </button>
+      <nav class="nav-links" id="primary-navigation" aria-label="التنقل الرئيسي">
+        <a href="#home">الرئيسية</a><a href="#about">من أنا</a><a href="#education">التعليم والدورات</a>
+        <a href="#skills">المهارات</a><a href="#projects">المشاريع</a><a href="#contact">تواصل معي</a>
+      </nav>
+      <a href="#contact" class="header-button">تواصل معي</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="welcome"><span class="status-dot"></span> أهلاً بكم في موقعي الشخصي</span>
+          <h1 id="hero-title">مرحباً، أنا <span>أحمد عاطف عطاالله</span></h1>
+          <h2>طالب هندسة أنظمة الحاسوب <i aria-hidden="true">|</i> مطوّر ويب</h2>
+          <p>طموح، سريع التعلّم، ومهتم ببناء تجارب ويب عملية وجذابة. أسعى إلى تطوير مهاراتي في أنظمة الحاسوب وتطوير الويب.</p>
+          <div class="hero-buttons">
+            <a href="#about" class="btn btn-gold">تعرّف عليّ <span aria-hidden="true">←</span></a>
+            <a href="#contact" class="btn btn-outline">تواصل معي</a>
+          </div>
+          <div class="hero-meta"><span>HTML</span><span>CSS</span><span>JavaScript قيد التعلّم</span></div>
+        </div>
+        <div class="hero-visual" aria-label="صورة أحمد مع زخارف تقنية متحركة">
+          <div class="portrait-glow" aria-hidden="true"></div>
+          <div class="orbit orbit-one" aria-hidden="true"><span></span></div>
+          <div class="orbit orbit-two" aria-hidden="true"><span></span></div>
+          <div class="orbit orbit-three" aria-hidden="true"></div>
+          <div class="tech-float tech-html" aria-hidden="true">&lt;/&gt;</div>
+          <div class="tech-float tech-js" aria-hidden="true">JS</div>
+          <div class="tech-float tech-css" aria-hidden="true">CSS</div>
+          <div class="tech-float tech-braces" aria-hidden="true">{ }</div>
+          <div class="tech-float tech-code" aria-hidden="true">01</div>
+          <img class="portrait" src="./ahmed (1).webp" width="900" height="832" alt="صورة شخصية لأحمد عاطف عطاالله" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="نبذة سريعة">
+      <div class="container stats-grid">
+        <article class="stat"><strong>86%</strong><span>معدل آخر سنة</span></article>
+        <article class="stat"><strong>السنة 2</strong><span>جامعة الأزهر</span></article>
+        <article class="stat"><strong>Front + Back</strong><span>دورة برمجة الويب</span></article>
+        <article class="stat"><strong>JavaScript</strong><span>قيد التعلّم حالياً</span></article>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <p class="eyebrow">نبذة شخصية</p><h2 class="section-title">من أنا</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>طالب هندسة أنظمة الحاسوب في جامعة الأزهر بغزة، أتميّز بسرعة التعلّم والقدرة على اكتساب المهارات الجديدة.</p>
+            <p>أمتلك أساساً في برمجة الويب (Front-End وBack-End)، وأعمل على تطوير مهاراتي لبناء صفحات ومواقع ويب عملية ومتجاوبة.</p>
+          </div>
+          <ul class="info-list" aria-label="معلومات شخصية">
+            <li><b>الاسم</b><span>أحمد عاطف عطاالله</span></li>
+            <li><b>التخصص</b><span>هندسة أنظمة الحاسوب</span></li>
+            <li><b>الجامعة</b><span>جامعة الأزهر – غزة</span></li>
+            <li><b>المعدل</b><span>86%</span></li>
+            <li><b>اللغات</b><span>العربية، الإنجليزية</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="education">
+      <div class="container">
+        <p class="eyebrow">المسار الأكاديمي</p><h2 class="section-title">التعليم والدورات</h2>
+        <div class="timeline">
+          <article class="timeline-item"><span class="date">الحاضر</span><h3>دورة برمجة الويب (Front-End وBack-End)</h3><h4>مركز الهمص التعليمي</h4>
+            <ul><li>تصميم وبناء صفحات ومواقع ويب.</li><li>تطبيق عملي على مشاريع.</li><li>أتعلّم JavaScript حالياً لبناء مواقع تفاعلية.</li></ul>
+          </article>
+          <article class="timeline-item"><span class="date">السنة الثانية – مستمر</span><h3>بكالوريوس هندسة أنظمة الحاسوب</h3><h4>جامعة الأزهر – غزة، فلسطين</h4><p>معدل آخر سنة دراسية: 86%</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="eyebrow">ما أعمل على تطويره</p><h2 class="section-title">المهارات</h2>
+        <div class="skills-grid">
+          <article class="skill-group"><h3>تطوير الويب</h3><div class="chips"><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript (قيد التعلّم)</span><span class="chip">Front-End</span><span class="chip">Back-End</span></div></article>
+          <article class="skill-group"><h3>التصميم</h3><div class="chips"><span class="chip soft">تصميم واجهات المواقع</span><span class="chip soft">تصميم متجاوب</span><span class="chip soft">بناء صفحات ويب</span></div></article>
+          <article class="skill-group"><h3>أنظمة الحاسوب</h3><div class="chips"><span class="chip soft">أنظمة التشغيل</span><span class="chip soft">الشبكات</span><span class="chip soft">صيانة الحاسوب</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="languages">
+      <div class="container">
+        <p class="eyebrow">التواصل</p><h2 class="section-title">اللغات</h2>
+        <div class="languages-grid">
+          <article class="language"><h3>العربية <small>ممتاز</small></h3><div class="bar" role="img" aria-label="مستوى العربية: ممتاز"><span style="width:100%"></span></div></article>
+          <article class="language"><h3>الإنجليزية <small>جيد جداً</small></h3><div class="bar" role="img" aria-label="مستوى الإنجليزية: جيد جداً"><span style="width:85%"></span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="eyebrow">نماذج من عملي</p><h2 class="section-title">المشاريع</h2>
+        <div class="projects-grid">
+          <article class="project-card"><span class="project-mark" aria-hidden="true">&lt;/&gt;</span><h3>موقع شركة الهمص للتدريب</h3><p>واجهة موقع لمركز تدريب، مع قائمة تنقل وصفحة رئيسية متجاوبة.</p><div class="chips"><span class="chip soft">HTML</span><span class="chip soft">CSS</span></div></article>
+          <article class="project-card"><span class="project-mark" aria-hidden="true">{ }</span><h3>موقعي الشخصي</h3><p>صفحة سيرة ذاتية عربية بتصميم متجاوب تعمل على الحاسوب والهاتف.</p><div class="chips"><span class="chip soft">HTML</span><span class="chip soft">CSS</span><span class="chip soft">JavaScript</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <p class="eyebrow">لنبقَ على تواصل</p><h2 class="section-title">تواصل معي</h2>
+        <p>للتعاون في مشاريع الويب أو الاستفسار، يمكنكم مراسلتي عبر البريد الإلكتروني أو واتساب.</p>
+        <div class="contact-buttons">
+          <a href="mailto:ahmedaa66677i8hi@gmail.com" class="btn btn-gold">أرسل لي بريداً</a>
+          <a href="https://wa.me/972594253827" target="_blank" rel="noopener noreferrer" class="btn btn-outline">راسلني على واتساب</a>
+        </div>
+        <div class="contact-details"><span>البريد: <a href="mailto:ahmedaa66677i8hi@gmail.com">ahmedaa66677i8hi@gmail.com</a></span><span>واتساب: <a href="https://wa.me/972594253827" target="_blank" rel="noopener noreferrer" dir="ltr">+972 59 425 3827</a></span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container"><strong>أحمد عاطف عطاالله</strong><p>هندسة أنظمة الحاسوب وتطوير الويب</p><p>جميع الحقوق محفوظة © <span id="year">2026</span></p></div></footer>
+  <button class="back-to-top" type="button" aria-label="العودة إلى أعلى الصفحة" title="العودة للأعلى">↑</button>
+</body>
+</html>
